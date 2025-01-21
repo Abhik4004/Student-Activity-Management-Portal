@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import boy from '../assets/boy.jpg';
 import {
   Container,
   Typography,
@@ -24,7 +25,7 @@ const StudentDashboard = () => {
   const student = {
     name: 'John Doe',
     department: 'Computer Science',
-    image: 'https://via.placeholder.com/150',
+    image: boy,
   };
 
   const addActivity = (activity) => {

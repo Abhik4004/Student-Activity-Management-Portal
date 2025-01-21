@@ -1,86 +1,71 @@
-# React + Vite Project
+# Student Activity Management Portal
 
-This project is a simple setup for a React application using Vite. Vite is a fast build tool that provides a great development experience with features like hot module replacement (HMR).
-
-## Getting Started
-
-Follow these instructions to get the project up and running on your local machine.
-
-### Prerequisites
-
-Make sure you have the following installed:
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-### Running the Development Server
-
-To start the development server with hot module replacement:
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-### Building for Production
-
-To create a production build:
-```bash
-npm run build
-# or
-yarn build
-```
-
-### Previewing the Production Build
-
-To preview the production build locally:
-```bash
-npm run serve
-# or
-yarn serve
-```
-
-### Project Structure
-
-Here's a brief overview of the project structure:
-```
-your-repo-name/
-├── public/          # Static assets
-├── src/             # Source files
-│   ├── assets/      # Assets like images, fonts, etc.
-│   ├── components/  # React components
-│   ├── App.jsx      # Main App component
-│   ├── main.jsx     # Entry point
-├── .gitignore       # Git ignore file
-├── index.html       # Main HTML file
-├── package.json     # Project metadata and scripts
-├── README.md        # Project documentation
-├── vite.config.js   # Vite configuration
-```
-
-### Contributing
-
-If you want to contribute to this project, please fork the repository and create a pull request with your changes.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+The **Student Activity Management Portal** is an online platform designed to allow students to record their participation in both curricular and non-curricular activities. The portal will assign points based on student involvement and allow administrators to track engagement. The portal aims to provide an easy and efficient way to recognize and reward student participation.
 
 ---
 
-Happy coding!
-```
+## Features
+
+- **Student Dashboard**: View and track participation in activities.
+- **Activity Categories**: Log curricular and non-curricular activities.
+- **Point Allocation**: Points are assigned based on the type and level of participation.
+- **Admin Panel** (Coming Soon): Administrators will manage activities, set point values, and monitor student progress.
+
+---
+
+## UI Overview
+
+The User Interface (UI) for the portal is designed and developed, providing a functional and engaging experience for both students and administrators. Currently, only the front-end (UI) section has been completed, and the backend is under development.
+
+### Student Dashboard
+
+- Students can view their activity history, points earned, and activities.
+- [Insert screenshot or UI image here]
+
+### Activity Submission
+
+- Home Page of the student activity management system
+  ![Home Page](./src/assets/home.png)
+- Students can submit their participation in activities and categorize them as curricular or non-curricular.
+- ![Student Dashboard](./src/assets/studentDash.png)
+- Teacher can check the student submission and approve them.
+- ![Student Dashboard](./src/assets/teacherDash.jpg)
+
+---
+
+## Installation
+
+The current version only includes the frontend UI. To set up and run the frontend part of the portal locally, follow these steps:
+
+### Prerequisites
+
+- Node.js
+- npm (Node Package Manager)
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Abhik4004/Student-Activity-Management-Portal.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd student-activity-management-portal
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the frontend:
+   ```bash
+   npm start
+   ```
+5. Open your browser and go to `http://localhost:5173` to view the portal.
+
+## Backend (Coming Soon)
+
+The backend for the portal is currently under development. Once the backend is complete, it will allow for:
+
+- Storing activity data in a database.
+- Point allocation based on activity participation.
+- Admin functionality for managing activity categories and points.
