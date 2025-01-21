@@ -27,9 +27,9 @@ The User Interface (UI) for the portal is designed and developed, providing a fu
 - Home Page of the student activity management system
   ![Home Page](./src/assets/home.png)
 - Students can submit their participation in activities and categorize them as curricular or non-curricular.
-- ![Student Dashboard](./src/assets/studentDash.png)
+  ![Student Dashboard](./src/assets/studentDash.png)
 - Teacher can check the student submission and approve them.
-- ![Student Dashboard](./src/assets/teacherDash.jpg)
+  ![Student Dashboard](./src/assets/teacherDash.jpg)
 
 ---
 
