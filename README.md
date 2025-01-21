@@ -17,12 +17,7 @@ The **Student Activity Management Portal** is an online platform designed to all
 
 The User Interface (UI) for the portal is designed and developed, providing a functional and engaging experience for both students and administrators. Currently, only the front-end (UI) section has been completed, and the backend is under development.
 
-### Student Dashboard
-
-- Students can view their activity history, points earned, and activities.
-- [Insert screenshot or UI image here]
-
-### Activity Submission
+### UI Screenshots
 
 - Home Page of the student activity management system
   ![Home Page](./src/assets/home.png)
